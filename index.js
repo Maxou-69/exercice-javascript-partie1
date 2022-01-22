@@ -51,3 +51,14 @@
 // Soluce 2 :
 // let naissance = prompt ("quel est votre date de naissance") ;
 //alert ((((Number(pointure) 2)+5 )50) - (naissance) + 1766)
+
+
+// exercice 8
+let naissance = prompt("Quel est votre année de naissance?")
+let age= 2022-(naissance)
+if (age < 18){
+    alert("Vous n'avez pas l'age pour accéder à ce site au revoir")
+} 
+else{
+    alert("Vous pouvez entrer")
+}
